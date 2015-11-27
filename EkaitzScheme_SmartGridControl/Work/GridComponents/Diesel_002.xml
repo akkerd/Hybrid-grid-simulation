@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>Diesel</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>Diesel_002</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   
+   <Model>
+        <fuelLvl> 100</fuelLvl>
+        <fuelConsumption> [0 5.7 9.5 13.6 18]</fuelConsumption>
+        <realPower> 0</realPower>
+        <maxPower> 250</maxPower>
+        
+        <overload> </overload>
+   </Model>
+  
+   <OptimParams>
+        <beta>0.85</beta>
+        <PriceCutoff>0.9</PriceCutoff>
+        <Incentivemin>0</Incentivemin>
+        <Incentivemax>1</Incentivemax>
+        <SampleTime>0.25</SampleTime>
+        <stableNetCurve>[47 47.5 48  48.5   49 49.5  50   50.5   51   51.5   52 52.5 53 ; 3100 2700 2600 2300 2280 2200 1860 1450 780 470 140 70 0]</stableNetCurve>
+       
+   </OptimParams>
+</eNode>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>Central_eNode</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>Central_eNode</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   <Model>
+        <PriceElements>
+            <xmlFile0>WindTurbine1.xml</xmlFile0>
+            <xmlFile1>WindTurbine3.xml</xmlFile1>
+            <xmlFile2>FWClass.xml</xmlFile2>
+            <xmlFile3>Battery1.xml</xmlFile3>
+            <xmlFile4>PVClass.xml</xmlFile4>
+            <xmlFile5>Consumer.xml</xmlFile5>
+        </PriceElements>
+        <NetControlElements>
+            <xmlFile1>Diesel.xml</xmlFile1>
+            <xmlFile2>Diesel.xml</xmlFile2>
+            <xmlFile3>Hydraulic.xml</xmlFile3>
+        </NetControlElements>
+   </Model>
+   <OptimizationParameters>
+        
+   </OptimizationParameters>
+</eNode>
+
