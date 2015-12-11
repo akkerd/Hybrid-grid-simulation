@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>CentraleNode</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>CentraleNode</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   
+   <Model>
+        <ElementPath>../Work/GridComponents</ElementPath>
+        <TypeOfeNodes>
+            <type1> 
+                <name>Consumer</name>
+                <path>C:\Users\Grid\Zigor\TFG 2015-2016\Code\Grid\Consumers</path>
+            </type1>
+            <type2> 
+                <name>Diesel</name>
+                <path>C:\Users\Grid\Zigor\TFG 2015-2016\Code\Grid\Diesel</path>
+            </type2>
+            <type3> 
+                <name>WindTurbine</name>
+                <path>C:\Users\Grid\Zigor\TFG 2015-2016\Code\Grid\WindTurbine</path>
+            </type3>
+            <type4> 
+                <name>Battery</name>
+                <path> </path>
+            </type4>
+        </TypeOfeNodes>
+   </Model>
+   <OptimParams>
+        <MaxIter>100</MaxIter>
+        <FreqPowerCurve>[47.5 52.5; 100000 100]</FreqPowerCurve>
+        <FactorCurve>[100 100000; 1 10]</FactorCurve>
+   </OptimParams>
+</eNode>
+

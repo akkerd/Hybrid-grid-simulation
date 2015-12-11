@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>Central_eNode</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>Central_eNode</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   <Model>
+        <Element>
+            <Path>C:\</Path>
+        </Element>
+   </Model>
+   <OptimizationParameters>
+
+   </OptimizationParameters>
+</eNode>
+

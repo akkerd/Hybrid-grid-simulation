@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>Battery</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>Battery</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   <Model>
+         <nPW>5000</nPW>
+         <Ploss_off>0</Ploss_off>
+         <Ploss_on>7</Ploss_on>
+         <Eff_hl>97</Eff_hl>
+         <Eff_fl>96</Eff_fl>
+         <Nliters>300</Nliters>
+         <WhPerLiter>35</WhPerLiter>
+         <WsIni>0</WsIni>
+         <WsMax>37800000</WsMax>
+         <ImaxPerCell>65</ImaxPerCell>
+         <IminPerCell>-65</IminPerCell>
+         <OCVPerCellvsSOC_x>[0 0.200000000000000 0.950000000000000 1]</OCVPerCellvsSOC_x>
+         <OCVPerCellvsSOC_y>[0.800000000000000 0.810000000000000 1.400000000000000 1.500000000000000]</OCVPerCellvsSOC_y>
+         <RPerCellvsSOC_x>[0 0.200000000000000 0.950000000000000 1]</RPerCellvsSOC_x>
+         <RPerCellvsSOC_y>[0.007000000000000 0.007010000000000 0.007020000000000 0.007030000000000]</RPerCellvsSOC_y>
+         <NCellsPerStack>30</NCellsPerStack>
+         <NStacks>12</NStacks>
+         <Imax>65</Imax>
+         <Imin>-65</Imin>
+         <OCVvsSOC_x>[0 0.200000000000000 0.950000000000000 1]</OCVvsSOC_x>
+         <OCVvsSOC_y>[288 2.916000000000000e+02 504 540]</OCVvsSOC_y>
+         <RvsSOC_x>[0 0.200000000000000 0.950000000000000 1]</RvsSOC_x>
+         <RvsSOC_y>[2.520000000000000 2.523600000000000 2.527200000000000 2.530800000000000]</RvsSOC_y>
+         <PvsQ_x>[0 0.003002000000000]</PvsQ_x>
+         <PvsQ_y>[0 150000]</PvsQ_y>
+         <nuPump>0.75</nuPump>
+         <QvsI_x>[0 65]</QvsI_x>    
+         <QvsI_y>[0 0.003000000000000]</QvsI_y>  
+         <Vmin>0.001</Vmin>
+         <SOC0>0.5</SOC0>
+   </Model>
+   <OptimizationParameters>
+        <beta>0.85</beta>
+        <PriceCutoff>0.9</PriceCutoff>
+        <Incentivemin>0</Incentivemin>
+        <Incentivemax>1</Incentivemax>
+        <lambda>0.5</lambda>
+        <SOCmin>0.2</SOCmin>
+        <SOCmax>0.8</SOCmax>
+        <deltaT>10</deltaT>
+   </OptimizationParameters>
+</eNode>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>FWZigor</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>FWZigor</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   <Model>
+        <J>0.311*15</J>
+        <Wmax>50e3*2*pi/60</Wmax>
+        <Wini>0.75*50e3*2*pi/60</Wini>
+        <Tloss_hyst> 0.08*1000/ (50000*pi/30)</Tloss_hyst>
+        <Keddy> 0.15*1000/ (50000*pi/30)^2</Keddy>
+        <Kaero> 0.3*1000/ (50000*pi/30)^3</Kaero>
+        <nuConv>0.95</nuConv>
+        <Tmax> 100</Tmax>
+        <Tmin>-100</Tmin> 
+        <Pmax>100e3</Pmax>
+        <Pmin>-100e3</Pmin>                                
+        <nPW>100000</nPW>
+        <Ploss_off>10</Ploss_off>
+        <Ploss_on>1000</Ploss_on>
+        <Eff_hl>95</Eff_hl>
+        <Eff_fl>93</Eff_fl>
+        <Wmin>0.001</Wmin>
+   </Model>
+   <OptimizationParameters>
+        <beta>0.01</beta>
+        <PriceCutoff>0.001</PriceCutoff>
+        <Incentivemin>0</Incentivemin>
+        <Incentivemax>1</Incentivemax>
+        <lambda>0.1</lambda>
+        <SOCmin>0.2</SOCmin>
+        <SOCmax>0.8</SOCmax>
+        <deltaT>1</deltaT>
+   </OptimizationParameters>
+</eNode>
+

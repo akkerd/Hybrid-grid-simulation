@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eNode>
+	<eNodeType>WindTurbine</eNodeType>
+	<Mode>autonomous</Mode>
+	<GeneralInformation>
+		<XMS_ID>WindTurbine_001</XMS_ID>
+   </GeneralInformation>
+   <Schedule>
+   </Schedule>
+   <Model>
+		 <Vcuton>3</Vcuton>
+		 <Vcutoff>18</Vcutoff>
+         <FreqPowerCurve>[47.5 52.5 ; 100 5500]</FreqPowerCurve>
+         <FreqEuroCurve>[47.5 52.5; 0.03 1] </FreqEuroCurve> 
+         <nPW>5000</nPW>
+         <MaxPW>5500</MaxPW>
+         <Ploss_off>0</Ploss_off>
+         <Ploss_on>7</Ploss_on>
+         <Eff_hl>97</Eff_hl>
+         <Eff_fl>96</Eff_fl>
+         <MinWindPW_On>42</MinWindPW_On>
+         <MinWindPW_av>35</MinWindPW_av>
+   </Model>
+   <OptimizationParameters>
+        <beta>0.85</beta>
+        <PriceCutoff>0.9</PriceCutoff>
+        <Incentivemin>0</Incentivemin>
+        <Incentivemax>1</Incentivemax>
+   </OptimizationParameters>
+</eNode>
